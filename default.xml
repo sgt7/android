@@ -5,7 +5,11 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/" 
+           fetch="git://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <remote  name="github-https"
+           fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
   <default revision="refs/heads/ics"
@@ -54,7 +58,6 @@
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" />
   <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
@@ -110,6 +113,7 @@
   <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -207,7 +211,6 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
@@ -224,6 +227,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -247,8 +251,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
-  <project path="vendor/cm" name="sgt7android_vendor_cm" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github-https" />
+  <project path="vendor/cm" name="sgt7/android_vendor_cm" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
