@@ -192,6 +192,8 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
+  <project path="kernel/samsung/initramfs" name="sgt7/p1000-initramfs-cm9" revision="master" />
+  <project path="kernel/samsung/p1" name="sgt7/p1000-kernel-cm9" revision="master" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -253,7 +255,9 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github-https" />
-  <project path="vendor/cm" name="sgt7/android_vendor_cm" />
+  <project path="scripts" name="sgt7/scripts" revision="master">
+    <copyfile src="scripts/build.sh" dest="build.sh" />
+  </project>
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
@@ -262,6 +266,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
+  <project path="vendor/cm" name="sgt7/android_vendor_cm" />
 
   <project path="android" name="sgt7/android" />
 </manifest>
