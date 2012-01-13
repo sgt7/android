@@ -31,6 +31,10 @@ To build kernel too, use this
 
     ./build.sh p1 (P1 | P1C | P1L | P1N)
 
+You can specify buildtype with
+
+    ./build.sh p1 eng (eng userdebug user)
+
 Submitting Patches
 ------------------
 Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit! (If you did some change not specific to sgt7)
