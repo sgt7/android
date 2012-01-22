@@ -266,6 +266,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="sgt7/android_vendor_cm" />
+  <project path="vendor/samsung" name="sgt7/proprietary_vendor_samsung" />
 
   <project path="android" name="sgt7/android" />
 </manifest>
