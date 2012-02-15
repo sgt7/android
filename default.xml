@@ -193,6 +193,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="kernel/samsung/p1" name="sgt7/p1000-kernel-cm9" revision="android-samsung-2.6.35" />
+  <project path="kernel/samsung/initramfs" name="sgt7/p1000-initramfs-cm9" revision="master" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
