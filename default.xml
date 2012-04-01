@@ -258,7 +258,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github-https" />
   <project path="scripts" name="sgt7/scripts" revision="master">
-    <copyfile src="scripts/build.sh" dest="build.sh" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
