@@ -130,7 +130,7 @@
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="master" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
-  <project path="external/skia" name="sgt7/android_external_skia" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
