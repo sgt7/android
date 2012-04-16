@@ -28,7 +28,6 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1" />
-  <project path="device/samsung/p1c" name="sgt7/android_device_samsung_p1c" />
   <project path="device/samsung/p1-common" name="sgt7/android_device_samsung_p1-common" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
