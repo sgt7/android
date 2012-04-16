@@ -23,12 +23,12 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="sgt7/android_bootable_recovery" revision="master" />
+  <project path="bootable/recovery" name="sbradymobile/android_bootable_recovery" revision="master" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1" />
-  <project path="device/samsung/p1-common" name="sgt7/android_device_samsung_p1-common" />
+  <project path="device/samsung/p1" name="sbradymobile/android_device_samsung_p1" />
+  <project path="device/samsung/p1-common" name="sbradymobile/android_device_samsung_p1-common" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -156,7 +156,7 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="sgt7/android_frameworks_base" />
+  <project path="frameworks/base" name="sbradymobile/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -181,8 +181,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="kernel/samsung/p1" name="sgt7/android_kernel_samsung_p1" revision="android-samsung-2.6.35" />
-  <project path="kernel/samsung/p1c" name="jt1134/android_kernel_samsung_galaxytab-cdma" />
+  <project path="kernel/samsung/p1" name="sbradymobile/android_kernel_samsung_p1" revision="android-samsung-2.6.35" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -207,19 +206,19 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="sgt7/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="sbradymobile/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <project path="packages/apps/Settings" name="sgt7/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="sbradymobile/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/Trebuchet" name="sgt7/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="sbradymobile/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -244,7 +243,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github-https" />
-  <project path="scripts" name="sgt7/scripts" revision="master">
+  <project path="scripts" name="sbradymobile/scripts" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="sdk" name="CyanogenMod/android_sdk" />
@@ -258,5 +257,5 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/samsung" name="sgt7/proprietary_vendor_samsung" />
 
-  <project path="android" name="sgt7/android" />
+  <project path="android" name="sbradymobile/android" />
 </manifest>
