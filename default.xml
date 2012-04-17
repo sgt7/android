@@ -27,9 +27,9 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1" />
-  <project path="device/samsung/p1c" name="sgt7/android_device_samsung_p1c" />
-  <project path="device/samsung/p1-common" name="sgt7/android_device_samsung_p1-common" />
+  <project path="device/samsung/p1" name="CyanogenMod/android_device_samsung_p1" />
+  <project path="device/samsung/p1c" name="CyanogenMod/android_device_samsung_p1c" />
+  <project path="device/samsung/p1-common" name="CyanogenMod/android_device_samsung_p1-common" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -182,7 +182,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="kernel/samsung/p1" name="sgt7/android_kernel_samsung_p1" revision="android-samsung-2.6.35" />
+  <project path="kernel/samsung/p1" name="CyanogenMod/android_kernel_samsung_p1" revision="android-samsung-2.6.35" />
   <project path="kernel/samsung/p1c" name="jt1134/android_kernel_samsung_galaxytab-cdma" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
