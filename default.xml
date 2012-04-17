@@ -182,7 +182,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="kernel/samsung/p1" name="CyanogenMod/android_kernel_samsung_p1" revision="android-samsung-2.6.35" />
+  <project path="kernel/samsung/p1" name="sgt7/android_kernel_samsung_p1" revision="android-samsung-2.6.35" />
   <project path="kernel/samsung/p1c" name="CyanogenMod/android_kernel_samsung_galaxytab-cdma" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
