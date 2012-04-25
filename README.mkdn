@@ -25,15 +25,11 @@ Building
 
 Once you are done with syncing, use a command like this for building:
 
-    ./build.sh
+. build/envsetup.sh && brunch p1
 
-To build kernel too, use this
-
-    ./build.sh p1 (P1 | P1C | P1L | P1N)
-
-You can specify buildtype with
-
-    ./build.sh p1 eng (eng userdebug user)
+Extracting vendor files
+-----------------------
+./device/samsung/p1/extract-files.sh
 
 Submitting Patches
 ------------------
