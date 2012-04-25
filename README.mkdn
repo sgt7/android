@@ -29,7 +29,11 @@ Once you are done with syncing, use a command like this for building:
 
 Extracting vendor files
 -----------------------
-./device/samsung/p1/extract-files.sh
+
+To extract vendor files from the device:
+
+cd device/samsung/p1
+./extract-files.sh
 
 Submitting Patches
 ------------------
