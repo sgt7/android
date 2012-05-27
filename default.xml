@@ -184,6 +184,7 @@
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/Apollo" name="sbradymobile/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
+  <project path="packages/apps/Bazinga" name="sgt7/android_packages_apps_Bazinga" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
