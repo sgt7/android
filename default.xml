@@ -41,6 +41,8 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1" />
+  <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1l" />
+  <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1n" />
   <project path="device/samsung/p1-common" name="sgt7/android_device_samsung_p1-common" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="jb-mr1-release" />
